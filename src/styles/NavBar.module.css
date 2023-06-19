@@ -1,0 +1,36 @@
+.navBar{
+    background-color: rgb(15, 15, 15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    
+}
+ .ul {
+    display: flex;
+
+ }
+ .a{
+    color: white;
+    text-decoration: none;
+ }
+.li:hover{
+   transform: translateY(-2px);
+   color: red !important;
+}
+ .li{
+    list-style: none;
+    margin-right: 70%;
+    transition: transform 200ms , color 100ms;
+ }
+ @media (max-width: 869px) {
+   .navBar {
+     display:inline;
+     height: 8vh;
+   }
+   .li{
+      margin-right: 20%;
+   }
+ }
