@@ -9,7 +9,7 @@ export const HomeSection = () => {
         <Image src={image} alt="My Image" width={500} height={500} />
       </div>
 
-      <div style={{ height: "100vh" }} className={styles.homeSection}>
+      <div className={styles.homeSection}>
         <div style={{ fontSize: "50px" }}>
           Hi, I am <span style={{ color: "red" }}>V</span>AIDIK
         </div>

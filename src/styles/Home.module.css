@@ -1,9 +1,11 @@
 .body{
   font-weight: 800;
+  /* margin-left: 5%; */
   font-family: Helvetica;
 }
 .section{
   padding-top: 10vh;
+  height: 100%;
 }
 .homeSection {
   font-family: Helvetica;
@@ -14,8 +16,9 @@
   z-index: -1;
   display: flex;
   justify-content: center;
+  margin-right: 5%!important;
   opacity: 0.6;
-  margin-top: 1%;
+  margin-top: 10%;
 
 }
 @media (min-width: 600px) {
